@@ -1,6 +1,6 @@
 # Hướng dẫn chung
 1. Truy cập https://github.com/TranNgocMinh/Nhap-mon-ngon-ngu-C <br>
-2. Đăng nhập vào tài khoản Github cá nhân (nếu chưa có tài khoản thì truy cập github.com để tạo một tài khoản) <br>
+2. Đăng nhập vào tài khoản Github cá nhân (nếu chưa có tài khoản thì truy cập https://github.com/ để tạo một tài khoản) <br>
 3. Nhấn vào nút Fork gốc phải trên màn hình để sao chép repo này thành repo cá nhân 
 # Nội dung bài học
 1. Nhập môn ngôn ngữ lập trình <br>
