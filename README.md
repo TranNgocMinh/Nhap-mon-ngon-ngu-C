@@ -16,7 +16,7 @@
 11. Chuỗi (string) trong C <br>
 12. Các kiểu dữ liệu nâng cao và sắp xếp trong C <br>
 13. Quản lý tập tin trong C <br>
-<h4>Nội dung các bài học được đăng tải tại https://ngocminhtranblog.blogspot.com/2020/11/ngon-ngu-lap-trinh-c.html
+<h4>Nội dung các bài học được đăng tải tại https://ngocminhtranblog.blogspot.com/2020/11/ngon-ngu-lap-trinh-c.html </h4>
 # Bài tập
 1. Các bài tập liên quan đến nội dung bài học 1,2,3,4 nộp trong thư mục Bài tập 1 <br>
 2. Các bài tập liên quan đến nội dung bài học 5 nộp trong thư mục Bài tập 2 <br>
