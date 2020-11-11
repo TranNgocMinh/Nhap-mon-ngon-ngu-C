@@ -25,4 +25,6 @@
 6. Các bài tập liên quan đến nội dung bài học 11 nộp trong thư mục Bài tập 6 <br>
 7. Các bài tập liên quan đến nội dung bài học 12 nộp trong thư mục Bài tập 7 <br>
 8. Các bài tập liên quan đến nội dung bài học 13 nộp trong thư mục Bài tập 8 <br>
-
+# Môi trường thực thi
+1. Truy cập https://repl.it/ <br>
+2. Dev C++ hay Visual Studio Code
