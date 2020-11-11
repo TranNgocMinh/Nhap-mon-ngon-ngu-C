@@ -17,9 +17,12 @@
 12. Các kiểu dữ liệu nâng cao và sắp xếp trong C <br>
 13. Quản lý tập tin trong C
 # Bài tập
-Nhấn chuột trái vào tên các bài tập bên dưới và thực hiện theo yêu cầu và hướng dẫn của giảng viên <br>
-1. <a href="https://github.com/TranNgocMinh/Intro-C/blob/main/hello.c">hello.c</a> <br>
-2. <a href="https://github.com/TranNgocMinh/Intro-C/blob/main/myname.c">myname.c</a> <br>
-3. <a href="https://github.com/TranNgocMinh/Intro-C/blob/main/table.c">table.c</a> <br>
-4. <a href="https://github.com/TranNgocMinh/Intro-C/blob/main/star.c">star.c </a>
+1. Các bài tập liên quan đến nội dung bài học 1,2,3,4 nộp trong thư mục Bài tập 1 <br>
+2. Các bài tập liên quan đến nội dung bài học 5 nộp trong thư mục Bài tập 2 <br>
+3. Các bài tập liên quan đến nội dung bài học 6,7 nộp trong thư mục Bài tập 3 <br>
+4. Các bài tập liên quan đến nội dung bài học 8,9 nộp trong thư mục Bài tập 4 <br>
+5. Các bài tập liên quan đến nội dung bài học 10 nộp trong thư mục Bài tập 5 <br>
+6. Các bài tập liên quan đến nội dung bài học 11 nộp trong thư mục Bài tập 6 <br>
+7. Các bài tập liên quan đến nội dung bài học 12 nộp trong thư mục Bài tập 7 <br>
+8. Các bài tập liên quan đến nội dung bài học 13 nộp trong thư mục Bài tập 8 <br>
 
