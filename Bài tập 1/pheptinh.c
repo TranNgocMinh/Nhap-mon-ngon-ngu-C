@@ -1,17 +1,24 @@
 #include <stdio.h>
 
-int main(void)
-{
-int a,b;
-	a = 3;
-	b = 5;
-	int tong, hieu, tich;
-	double thuong;
-	tong = a + b;
-	hieu = a - b;
-	tich = a * b;
-	thuong = (double)a / b;
-	printf("a + b = %d, a - b = %d, a * b = %d, a / b = %0.1f", tong, hieu, tich, thuong);
-	getchar();
+int main (void){
+	
+	int a ;int b;
+	a=3;b=5;
+	
+	printf("a\t"); printf("b\t"); printf("a+b\t"); printf("a-b\t"); printf("a*b\t"); printf("a/b\n");
+	
+	
+	a+b; a-b; a*b; a/b;
+	
+	printf("%d\t",a); printf("%d\t",b);
+	 
+	printf("%d\t",a+b); printf("%d\t",a-b);
+	
+	printf("%d\t",a*b); 
+	
+	double c = 3;
+    double d = 5;
+    printf("%g", c/d); 
+	 
 	return 0;
 }
