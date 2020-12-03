@@ -4,8 +4,6 @@ int main(void) {
 
 int V,T,Van,Toan;
 double DTB;
-Van=V;
-Toan=T;
 DTB=(double)(V+T)/2;
 printf  ("Nhap V =");
 scanf  ("%d",&V);
