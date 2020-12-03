@@ -1,11 +1,16 @@
 #include <stdio.h>
 
 main(void) {
-  int van,toan;
-  printf("Nhap diem van va toan cua mot hoc sinh ");
-  scanf ("%V, %T");
-  scanf ("%DTB");
-  printf("Diem van(V)\tDiem toan(T)\tDien trung binh(DTB)\n");
-  printf ("9\t6\t8");
-
+  //Khai bao bien van toan kieu so nguyen
+  int Van,Toan,V,T;
+  double DTB;
+  printf("nhap Van =");
+  scanf("%d, & V");
+  printf("nhap Toan =");
+  scanf("%d, & T");
+  Van=V;
+  Toan=T;
+  //Xuat DTB
+  DTB=(V+T)/2;
+  printf("Van\tToan\tDTB\n%d\t%d\t%0.1f",Van,Toan,DTB);
 }
