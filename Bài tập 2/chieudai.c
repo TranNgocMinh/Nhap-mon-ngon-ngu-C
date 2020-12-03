@@ -2,8 +2,8 @@
 
 main(void) {
   int l,i,f;
-  printf("Nhap do dai can chuyen doi: %d",1);
-  scanf("%d", &1);
+  printf("Nhap do dai can chuyen doi: %d",l);
+  scanf("%d", &l);
   i=l*100;
   f=i*100;
   printf("\nDo dai chuyen sang don vi Xentimet la: %d", i);
