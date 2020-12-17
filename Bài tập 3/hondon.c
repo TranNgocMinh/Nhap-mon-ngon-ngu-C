@@ -7,7 +7,7 @@ int main(){
 	printf("nhap soluong :",soluong);
 	scanf("%d",&soluong);
 	thanhtien=dongia*soluong;
-	if(soluong>=5){thanhtien=(dongia*soluong)*0.75;
+	if(thanhtien>=500&&dongia>=5){thanhtien=(dongia*soluong)*0.5;
 	printf("%d", thanhtien);
 	}else{printf("%d",thanhtien);
 	}
