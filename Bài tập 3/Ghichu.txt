@@ -3,3 +3,6 @@ Hoặc có dấu là:
  + - * /Dấu == là : là một toán tử quan hệ nhằm so sánh xem hai biểu thức có bằng nhau hay không.
 Dấu = là dùng để gánBiến:+ kích cở+ Nội dung+ địa chỉdefault khoong caafn break 
 \t la cach khoang trangViết cấu trúc lặp có 3 yếu tố cần để ý+ điều kiện dừng+ Bộ đếm+ Số bước đếm(++) là 1 cách khác (i = i + 1)
+  
+có thể dùng switch hoặc if đều đc 2 cái khá giống nhau
+không thể viết case 1,2,3 mà phải chia ra case 1 case 2 case 3
