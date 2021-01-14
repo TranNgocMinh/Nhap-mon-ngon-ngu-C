@@ -2,13 +2,13 @@
 
 int main() {
   int a[4]={3,5,7,2};
-  int i,sum=0;
+  int k,tong=0;
 
-  for(int i = 0; i < 4; ++i) {
-     printf("%d\n", a[i]);
-     sum +=a[i];
-    
+  for(int k = 0; k < 4; ++k){
+  	tong +=a[k];
+     printf("%d\n", a[k]);
   }
-  printf("TONG = %d ",sum);
+  printf("TONG = %d",tong);
   return 0;
 }
+
