@@ -18,11 +18,11 @@
  	scanf("%d", &m);
  	for(int i = 0;i < n;i++){
     if(a[i] == m){
-      k=+1;
+      k+=1;
       break;
-    } 
+    } }
     if(k > 0){printf("Co ton tai");
     }
     else(printf("Khong ton tai"));
      return 0;
-}}
+}
