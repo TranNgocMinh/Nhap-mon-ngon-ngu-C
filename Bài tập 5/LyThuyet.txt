@@ -1,0 +1,54 @@
+PHẦN 1 KIẾN THỨC
+A) Bộ chữ viết trong ngôn ngữ C gồm: chữ in hoa và in thường.
++ 26 chữ cái latinh in hoa và in thường (A,B,C...Z ; a,b,c...z). Ngoài ra bộ viết trong ngôn ngữ C còn có  10 chữ số thập phân:( 1,2,3,4,5,6,7,8,9). Các kí tự toán học: (+, -, *, /, =, <, >, (, ). Và các kí hiệu đặc biệt: (:. , ; " ' _ @ # $ ! ^ [ ] { } ...).
++ Dấu cách hay khoản trắng, xuống hàng (\n) và tab (\t).
+
+B) Các kiểu dữ liệu cơ sở của C:
+Bất cứ chương trình ứng dụng nào cần sử lý giữ liệu cũng cần có nơi để lưu trữ tạm thời dữ liệu ấy .Nơi mà giữu liệu được lưu trữ vào bộ nhớ .
+Kiểu dữ liệu quy định kích thước bộ nhớ nơi dữ liệu được lưu trữ .
+Dữ liệu chương trình có nhiều dạng như số (number) , chuổi (sting hay text ),...
+C) Khái niệm và cú pháp khai báo biến trong ngôn ngữ C:
+Một chương trình ứng dụng có thể quản lý nhiều loại dữ liệu . trong trường hợp này, chương trình phải chỉ đạo  bộ nhớ cho mỗi đơn vị dữ liệu. Khi chỉ định bộ nhớ, có hai điểm cần chú ý như sau :
+Kích thước bộ nhớ ( kiểu dữ kiệu ).
+Vị trí bộ nhớ ( địa chỉ bộ nhớ).
+Các ngôn ngữ lập trình hiện đại cho phép chúng ta sử dụng các tên tượng trương gọi  là biến , chỉ đến một vùng của bộ nhớ nơi mà các giá trị cụ thể được lưu trữ. 
+Hệ điều hành hoạt đông như một giao diện giửa các ô nhớ và lập trình viên. Lập trình viên không cần lưu tâm vị trí ô nhớ mà để cho hệ điều hành đảm nhiệm.
+Biến có thể khai báo theo cú pháp: 
+Kiểu_dữ_liệu Tên_biến
+Trong đó Kiểu_dữ_liệu là kiểu dữ liệu; Tên_biến là tên biến; kết thúc khai báo biến là dấu chấm phẩy.
+Ví dụ : int num ; -> là kiểu dữ liệu, num là tên biến.
+D) Khái niệm biến toàn cục và biến cục bộ trong ngôn ngữ C:
++ biến toàn cục (golbal variable):
+Được khai báo bên ngoài tất cả các hàm (kể cả main)
+Thường được khai báo tại khối khai báo
+Có thể được sử dụng tại mọi vị trí trong chương trình như các hàm, khối lệnh lặp for hay while.
++ biến cục bộ hay địa phương(local variable):
+Được khai báo trên các hàm hay khối lệnh (ví dụ: biến đếm lệnh lặp for)
+Chỉ có thể được sử dụng trong phạm vi hàm hay khối lệnh
+Các tham số của ham (nếu có) là các biến cục bộ của hàm đó.
+E) Khái niệm và hàm trong ngôn ngữ C:
++ biến toàn cục (golbal variable):
+Được khai báo bên ngoài tất cả các hàm (kể cả main)
+Thường được khai báo tại khối khai báo
+Có thể được sử dụng tại mọi vị trí trong chương trình như các hàm, khối lệnh lặp for hay while.
++ biến cục bộ hay địa phương(local variable):
+Được khai báo trên các hàm hay khối lệnh (ví dụ: biến đếm lệnh lặp for)
+Chỉ có thể được sử dụng trong phạm vi hàm hay khối lệnh
+Các tham số của ham (nếu có) là các biến cục bộ của hàm đó.
+E/ Trình bày khái niệm và phân loại hàm trong ngôn ngữ C.
+Hàm Là  một khối lệnh (nhiều lệnh) thực hiện một nhiệm vụ cụ thể nào đó (tính tổng, hiện thị thông báo đến người dùng,...)
+Một cách hiểu khác về hàm: hàm là một sự chia nhỏ của chương trình
++ phân loại hàm (types of function):
+Hàm có 2 loại:
+Hàm thư viện chuẩn (Standard library funcitions):
+Là các hàm được xây dựng sẵn (bulid_in functions) trong ngôn ngữ C như hàm sacnf, printf,getchar,...
+Các hàm này được định nghĩa trong các tập tin có phần mở rộng .h như stdio.h, conio.h,.. Các tập tin này phải được gộp vào chương trihf thông qua chỉ định #include
+Hàm do nguoiwd dùng ddingj nghĩa (Uer-defined funcyions): định ngĩa theo nu cầu người dùng. Các phần tiếp theo sẽ tìm hiểu vê cú pháp khai báo, định ngĩa và gọi hàm loại này.
+
+F) Nguyên tắc hoạt động cảu hàm trong ngôn ngữ C: Nguyên tắc hoạt động cảu hàm trong ngôn ngữ
+ Khi máy gặp lời gọi hàm ở bất kỳ chỗ nào đó thì hàm bắt đầu được thực hiện, tức sẽ rời chỗ đó để đi đến hàm được gọi.
+ Nếu là hàm có tham số thì máy sẽ thực hiện truyền tham số thực cho các tham số hình thức tương ứng trong hàm.
+ Máy bắt đầu thực hiện lần lượt các câu lệnh trong thân hàm đến khi nào lệnh reuturn hoặc dấu } của hàm thì dừng lại thoát khỏi hàm trở về chương trình đã gọi nó và thực hiện tiếp các câu lệnh của chương trình này.
+Nếu hàm trả về giá trị thì giá trị của biểu 
+
+ 
